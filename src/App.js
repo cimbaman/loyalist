@@ -36,7 +36,7 @@ function App() {
         placeholder="Search..."
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
-        style={{font: '20px monospace', padding: '0.5rem', width: '400px', margin: '1.5rem' }}
+        style={{font: '20px monospace', padding: '0.5rem', width: '90%', maxWidth: '400px', margin: '1.5rem', boxSizing: 'border-box' }}
       />
 
       {filteredItems.map((item, index) => ( 

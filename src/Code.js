@@ -12,9 +12,11 @@ export default function Code (props) {
         padding: '1rem', 
         borderRadius: '8px', 
         border: '2px solid', 
-        width: '400px', 
+        width: '90%',
+        maxWidth: '400px', 
         margin: '1rem auto', 
-        justifyContent: 'center'
+        justifyContent: 'center',
+        boxSizing: 'border-box'
     };
 
     const itemStyle = {
