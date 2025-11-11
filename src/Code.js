@@ -9,6 +9,7 @@ export default function Code (props) {
     const color = props.props.color? props.props.color : '#00a2ffff'
 
     const topStyle = {
+        font: '20px monospace',
         padding: '1rem', 
         borderRadius: '8px', 
         border: '2px solid', 
@@ -40,7 +41,7 @@ export default function Code (props) {
             QR Code: {name}
             </h4>
             <QRCodeCanvas value={text} size={128} />
-            <p style={{font: '20px monospace'}}>{text}</p>
+            <p>{text}</p>
         </div>
     )
     }
